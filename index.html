@@ -35,6 +35,7 @@
               clifford: "#da373d",
               "custom-black": "#131318",
               "custom-red": "#FF4240",
+              "custom-gray": "#0d0d1299",
             },
           },
         },
@@ -51,8 +52,8 @@
       }
     </style>
   </head>
-  <body>
-    <header class="container px-4 mx-auto">
+  <body class="manrope-font">
+    <header class="container px-4 mx-auto border-b border-dashed pb-4">
       <!-- Navbar -->
       <nav>
         <div class="navbar bg-base-100">
@@ -163,82 +164,187 @@
       <!-- Hero Area -->
       <div class="relative">
         <div class="carousel w-full py-5 lg:py-14">
-            <!-- slide 1 -->
-            <div id="slide1" class="carousel-item relative w-full">
-              <img  src="images/banner-1.png" class="w-full rounded-2xl" />
-              <div class="absolute flex justify-between transform left-5 bottom-8">
-                <a
-                  href="#slide4"
-                  class="btn btn-circle mr-4 text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
-                  >❮</a
-                >
-                <a
-                  href="#slide2"
-                  class="btn btn-circle text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
-                  >❯</a
-                >
-              </div>
-            </div>
-    
-            <!-- slide 2 -->
-            <div id="slide2" class="carousel-item relative w-full">
-              <img src="images/banner-2.jpeg" class="w-full rounded-2xl" />
-              <div class="absolute flex justify-between transform left-5 bottom-8">
-                <a
-                  href="#slide1"
-                  class="btn btn-circle mr-4 text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
-                  >❮</a
-                >
-                <a
-                  href="#slide3"
-                  class="btn btn-circle text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
-                  >❯</a
-                >
-              </div>
-            </div>
-    
-            <!-- slide 3 -->
-            <div id="slide3" class="carousel-item relative w-full">
-              <img src="images/banner-3.jpg" class="w-full rounded-2xl" />
-              <div class="absolute flex justify-between transform left-5 bottom-8">
-                <a
-                  href="#slide2"
-                  class="btn btn-circle mr-4 text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
-                  >❮</a
-                >
-                <a
-                  href="#slide4"
-                  class="btn btn-circle text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
-                  >❯</a
-                >
-              </div>
-            </div>
-            <!-- slide 4 -->
-            <div id="slide4" class="carousel-item relative w-full">
-              <img src="images/banner-4.jpeg" class="w-full rounded-2xl" />
-              <div class="absolute flex justify-between transform left-5 bottom-8">
-                <a
-                  href="#slide3"
-                  class="btn btn-circle mr-4 text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
-                  >❮</a
-                >
-                <a
-                  href="#slide1"
-                  class="btn btn-circle text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
-                  >❯</a
-                >
-              </div>
+          <!-- slide 1 -->
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="images/banner-1.png" class="w-full rounded-2xl" />
+            <div
+              class="absolute flex justify-between transform left-5 bottom-8"
+            >
+              <a
+                href="#slide4"
+                class="btn btn-circle mr-4 text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
+                >❯</a
+              >
             </div>
           </div>
 
-          <div class="mx-auto rounded-xl bg-custom-black p-8 space-y-4 max-w-[566px]  lg:absolute bottom-20 right-8">
-            <h1 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h1>
-            <p class="text-white opacity-60 text-base font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <!-- slide 2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="images/banner-2.jpeg" class="w-full rounded-2xl" />
+            <div
+              class="absolute flex justify-between transform left-5 bottom-8"
+            >
+              <a
+                href="#slide1"
+                class="btn btn-circle mr-4 text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="btn btn-circle text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
+                >❯</a
+              >
+            </div>
           </div>
+
+          <!-- slide 3 -->
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="images/banner-3.jpg" class="w-full rounded-2xl" />
+            <div
+              class="absolute flex justify-between transform left-5 bottom-8"
+            >
+              <a
+                href="#slide2"
+                class="btn btn-circle mr-4 text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
+                >❮</a
+              >
+              <a
+                href="#slide4"
+                class="btn btn-circle text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
+                >❯</a
+              >
+            </div>
+          </div>
+          <!-- slide 4 -->
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="images/banner-4.jpeg" class="w-full rounded-2xl" />
+            <div
+              class="absolute flex justify-between transform left-5 bottom-8"
+            >
+              <a
+                href="#slide3"
+                class="btn btn-circle mr-4 text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn btn-circle text-xl bg-custom-black border-none text-white font-normal hover:text-custom-black"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mx-auto rounded-xl bg-custom-black p-8 space-y-4 max-w-[566px] lg:absolute bottom-20 right-8"
+        >
+          <h1 class="text-white text-2xl font-extrabold">
+            Meet all the heroes from the field
+          </h1>
+          <p class="text-white opacity-60 text-base font-medium">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
       </div>
     </header>
-    
-    <main></main>
+
+    <main class="container px-4 mx-auto">
+      <!-- Prfessiona club section -->
+      <section class="mb-8 lg:mb-24">
+        <header class="max-w-[607px] mx-auto space-y-6 text-center py-8">
+          <h1 class="text-custom-black font-extrabold text-4xl">
+            Professional Hockeys Club
+          </h1>
+          <p class="text-custom-gray text-base font-medium">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </header>
+
+        <div
+          class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-t border-dashed pt-12"
+        >
+          <!-- progressbar 1 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-custom-red"
+              style="--value: 87"
+              role="progressbar"
+            >
+              <span class="text-custom-black text-xl font-extrabold">87%</span>
+            </div>
+
+            <h3 class="text-custom-black text-xl font-semibold mb-4 mt-6">
+              Prayer Facility
+            </h3>
+            <p class="text-custom-gray text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+
+          <!-- progressbar 2 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-[#49D293]"
+              style="--value: 95"
+              role="progressbar"
+            >
+              <span class="text-custom-black text-xl font-extrabold">95%</span>
+            </div>
+
+            <h3 class="text-custom-black text-xl font-semibold mb-4 mt-6">
+                Experienced Coach
+            </h3>
+            <p class="text-custom-gray text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+
+          <!-- progressbar 3 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-[#FFB546]"
+              style="--value: 90"
+              role="progressbar"
+            >
+              <span class=" text-xl text-custom-black font-extrabold">90%</span>
+            </div>
+
+            <h3 class="text-custom-black text-xl font-semibold mb-4 mt-6">
+                Senior Player
+            </h3>
+            <p class="text-custom-gray text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+
+          <!-- progressbar 4 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-[#4C8DF1]"
+              style="--value: 80"
+              role="progressbar"
+            >
+              <span class="text-custom-black text-xl font-extrabold">80%</span>
+            </div>
+
+            <h3 class="text-custom-black text-xl font-semibold mb-4 mt-6">
+                Training Ground
+            </h3>
+            <p class="text-custom-gray text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+        </div>
+      </section>
+      
+    </main>
     <footer></footer>
   </body>
 </html>
