@@ -810,37 +810,69 @@
             turpis placerat dolor. Purus urna in sit nullam proin.
           </p>
         </header>
-        <div class="border-t border-dashed pt-12 grid lg:grid-cols-3">
+        <div class="border-t border-dashed pt-12 grid gap-6 grid-cols-1 lg:grid-cols-3 mx-auto">
 
-          <aside class="bg-white shadow-lg rounded-xl p-12 space-y-5">
+          <aside class="bg-white shadow-lg rounded-xl p-12 space-y-5 ">
 
             <!-- box 1 -->
             <div class="box bg-[#BCED6D1A] rounded-xl p-8">
               <img src="images/phone.png" alt="">
               <p class="mt-6 text-custom-gray text-base font-normal">Phone Number</p>
-              <strong class="text-custom-black font-extrabold text-lg">(+62) 123-321-543</strong>
+              <h3 class="text-custom-black font-extrabold text-lg">(+62) 123-321-543</h3>
             </div>
 
             <!-- box 2 -->
             <div class="box bg-[#FDDD5F1A] rounded-xl p-8">
               <img src="images/email.png" alt="">
               <p class="mt-6 text-custom-gray text-base font-normal">Email</p>
-              <strong class="text-custom-black font-extrabold text-lg">hockeys@support.com</strong>
+              <h3 class="text-custom-black font-extrabold text-lg">hockeys@support.com</h3>
             </div>
 
             <!-- box 3 -->
             <div class="box bg-[#629CF31A] rounded-xl p-8">
               <img src="images/map.png" alt="">
               <p class="mt-6 text-custom-gray text-base font-normal">Location</p>
-              <strong class="text-custom-black font-extrabold text-lg">152/1 Mohakhali Wireless Gate</div>
+              <h3 class="text-custom-black font-extrabold text-lg">152/1 Mohakhali Wireless Gate </h3>
+              </div>
 
           </aside>
-          
-          <form class="grid-cols-2" action="">
+          <div class="col-span-1 md:col-span-2">
+            
+          <form action="" class="grid lg:grid-cols-2 gap-6">
+
+              <label for="" class="font-bold text-xl col-span-2 md:col-span-1">
+                Your name 
+                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full  font-medium mt-2" />
+              </label>
+  
+              <label for="" class="font-bold text-xl col-span-2 md:col-span-1">
+                Your Email
+                <input type="email" placeholder="Enter your email" class="input input-bordered w-full font-medium mt-2" />
+              </label>
+  
+              <label for="" class="font-bold text-xl col-span-2 md:col-span-1">
+                Subject
+                <input type="text" placeholder="Enter your subject" class="input input-bordered w-full  font-medium mt-2"/>
+              </label>
+  
+              <label for="" class="font-bold text-xl col-span-2 md:col-span-1">
+                Phone Number
+                <input type="number" placeholder="Enter your phone number" class="input input-bordered w-full font-medium mt-2" />
+              </label>
+
+              <label for="" class="font-bold text-xl col-span-2 ">
+                Message
+                <textarea rows="10" placeholder="Write your message"  class="mt-2 textarea textarea-bordered textarea-lg w-[100%] font-medium"></textarea>
+              </label>
+
+              <button class="btn text-white bg-custom-red hover:bg-custom-red border-none col-span-2 text-xl font-bold">Send Message</button>
 
           </form>
+          </div>
         </div>
       </section>
+
+      
     </main>
     <footer></footer>
   </body>
